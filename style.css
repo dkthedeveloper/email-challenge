@@ -342,7 +342,7 @@ nav a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 80%; 
+    width: 82%; 
     margin: auto;
     flex-shrink: 1;
     padding: 0;
@@ -358,7 +358,7 @@ nav a {
 
    .image-container img  {
     width: 100%;
-    padding: .2rem;
+
    }
 
    #hr2 {
@@ -377,7 +377,6 @@ nav a {
    footer hr {
     width: 100%;
     text-align: center;
-    margin-left: 0;
    }
 
    .footer-nav  {
@@ -386,7 +385,8 @@ nav a {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 0;
-    margin-left: .5rem;
+    padding-left: .5rem;
+    
    }
 
    .footer-nav nav,
@@ -409,11 +409,12 @@ nav a {
    }
 
    #sub-footer {
-    margin-left: 1rem;
+    
     margin-top: 2rem;
     font-size: .8rem;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 2rem;
+    width: 95%;
    }
 
    #sub-footer button {
